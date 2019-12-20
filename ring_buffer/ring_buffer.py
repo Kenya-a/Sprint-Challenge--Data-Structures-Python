@@ -27,7 +27,6 @@ class RingBuffer:
         while current_node is not None:
             list_buffer_contents.append(current_node.value)
             current_node = current_node.next
-
         return list_buffer_contents
 
 # ----------------Stretch Goal-------------------
